@@ -1,0 +1,16 @@
+<function name="max3" param="a" param="b" param="c"  >
+<if condition="a>b" >
+   <if condition="a>c" >
+     <return op="a"/>
+     <else/>
+     <return op="c"/>
+   </if>
+<return op="a"/>
+<else/>
+   <if condition="b>c" >
+     <return op="b"/>
+     <else/>
+     <return op="c"/>
+   </if>
+</if>
+</function>

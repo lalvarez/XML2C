@@ -1,0 +1,10 @@
+<function name="mult" param="a" param="b"  >
+<if condition="a>0" >
+        <sub result="x" op="a" op="1" />
+        <call result="y" name="mult"  param="x" param="b" />
+        <add result="x" op="b" op="y" />
+        <return op="x"/>
+        <else/>
+        <return op="0" />
+</if>
+</function>

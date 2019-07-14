@@ -1,0 +1,4 @@
+<function name="f1" param="a" param="b" >
+<add result="b" op="a" />
+<add result="a" op="b" op="a"  op="1" op="4" op="7" />
+</function>

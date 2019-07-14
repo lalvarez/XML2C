@@ -1,0 +1,7 @@
+<function name="max2" param="a" param="b"  >
+<if condition="a>b" >
+<return op="a"/>
+<else/>
+<return op="b"/>
+</if>
+</function>
